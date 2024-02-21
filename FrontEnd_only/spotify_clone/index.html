@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <!--this is only sidebar content-->
+        <div class="sidebar">
+            <div class="homesearch">
+                <a href="home">Home</a>
+                <a href="search">Search</a>
+            </div>
+            <br>
+            <div class="yourlib">
+                <img src="./assets/library_icon.png" alt="lib">
+                <a href="#">Your Library</a>
+                <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
+            </div>
+            <div class="createplaylist">
+                <p id="p1">Create Your first playlist</p>
+                <p id="p2">It's easy we will help you</p>
+                <button>Create Playlist</button>
+            </div>
+            <div class="browsepodcasts">
+                <p id="p3">Lets find some podcasts to follow</p>
+                <p id="p4">Well keep you updated on new episodes</p>
+                <button>Browse Podcasts</button>
+            </div>
+        </div>
+        <!--this is only sticky nav content-->
+        <div class="card">
+            <div class="stickynav">
+                <div class="navigation">
+                    <img src="./assets/backward_icon.png" alt="">
+                    <img src="./assets/forward_icon.png" alt="" id="forward">
+                </div>
+                <div class="buttons">
+                    <span class="button">
+                        <button class="signin">Sign up</button>
+                        <button id="login">Log In</button>                
+                    </span>
+                </div>
+            </div>
+            <!--this is the only card container to be edited-->
+            <div class="cards">
+                <h3>Listen top 50 songs playlist </h3>          
+                <div id="card1">
+                   <img src="./assets/card1img.jpeg" alt="">
+                    <h5>Top 50 playlist</h5>
+                    <p>Enjoy the top 50 global songs all around the world</p>
+                </div>
+                <h3>best of spotify playlist    </h3>
+                <div id="card1">
+                    <img src="./assets/card2img.jpeg" alt="">
+                    <h5>the best spotify Playlist</h5>
+                    <p>One of the best play of your kind</p>
+                </div>
+                <div id="card3">
+                    <img src="./assets/card3img.jpeg" alt="">
+                    <h5>the best of rahat fateh ali khan</h5>
+                    <p>the legends choice</p>
+
+                </div>
+                
+               
+            </div>
+      
+        </div>
+        <!--this is only player content-->
+        <div class="player">
+            <input type="range" min="0" max="240">
+            <div id="playericons">
+                <img src="./assets/player_icon1.png" alt="">
+                <img src="./assets/player_icon2.png" alt="">
+                <img src="./assets/player_icon3.png" alt="">
+                <img src="./assets/player_icon4.png" alt="">
+                <img src="./assets/player_icon5.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
